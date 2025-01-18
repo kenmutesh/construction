@@ -13,10 +13,6 @@ jobs:
       - name: 🚚 Getting the latest code
         uses: actions/checkout@v3
 
-      # Optional: Install NPM Packages if using JavaScript
-      - name: Install NPM Packages
-        run: npm install
-
       # Sync files to server
       - name: 📂 Sync
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
