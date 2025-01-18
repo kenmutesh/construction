@@ -78,7 +78,7 @@ search.addEventListener('click', function (){
 //press escape to close the search bar
  document.addEventListener('keydown', (event) => {
      var keyName = event.key;
-     console.log("keyName");
+     console.log(keyName);
      if ((keyName == 'Escape' && searchBar.classList.contains('show') == true)) {
             searchBar.classList.toggle('show')
             searchBar.classList.toggle('hide')    
