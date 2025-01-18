@@ -67,8 +67,11 @@ html {
 #sec-0 .top p:nth-of-type(2)::before{
     content: "\f0e0";
 }
-#sec-0 .top p:last-of-type::before{
+#sec-0 .top p:nth-of-type(3)::before {
     content: "\f017";
+}
+#sec-0 .top p:last-of-type::before{
+    content: "\f041";
 }
 #sec-0 .top .social {
     display: flex;
